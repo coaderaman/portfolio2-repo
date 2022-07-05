@@ -7,6 +7,14 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+.color-change {
+    color: navy;
+}
+
 .orange-color {
     color: orange;
 }
@@ -55,4 +63,33 @@ h1 {
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.experience {
+    display: flex
+}
+
+.experience-item {
+    width: 40%;
+    margin: 5%;
+    box-shadow: 10px 10px 50px gray;
+    padding-left: 25px;
+    border-left: 7px solid blueviolet;
+}
+
+#first-ex {
+    border-left: 7px solid tomato;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+
+}
+
+footer p {
+    text-align: center;
 }
